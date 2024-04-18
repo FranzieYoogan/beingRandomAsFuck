@@ -7,3 +7,18 @@
     background-color: black;
 
 }
+
+.btn {
+
+    color: black;
+    align-items: center;
+    margin-top: 30%;
+
+}
+.formPositioning {
+
+    display: flex;
+    justify-content: center;
+
+
+}

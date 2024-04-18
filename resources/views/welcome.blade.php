@@ -23,15 +23,20 @@
         <link rel="stylesheet" href="{{asset('/css/homeStyle.css')}}">
     </head>
     <body class="antialiased">
-        <form  method="POST" action="/" class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            @csrf 
 
-            
-            <div class="containerButton">
+        <div  class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+            <form  method="POST" action="/" class="formPositioning">
+                @csrf 
+    
+                
 
-                <button type="submit" name="submit" class="btn btn-dark">JUREG</button>
+    
+                    <button type="submit" name="submit" class="btn btn-dark">JUREG</button>
+    
+                </form>
 
-            </form>
+  
+        
 
 
 
